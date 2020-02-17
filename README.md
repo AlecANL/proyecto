@@ -12,6 +12,9 @@ Esto está causando un gran atraso para la entrega de las cotizaciones y posible
 ## Realizacion
 
 por medio de elemntos HTML Inputs, los clientes de seguron TK-u pueden ingresar facilmente, sus datos que seran procesados devolviendo su contizacion con precios segun requerimientos dados por seguros TK-u
+- una vez ingresado su datos (nombre, dia, mes y fecha de nacimiento), devolvera su edad con la cual se calculara el costo que tendra su seguro.
+- luego de determinar el costo del seguro, preguntara si actualmente tiene esposa, a lo cual debera de ingresar la edad de la esposa, la cual sera la base para determinar el costo del seguro
+- asi mismo preguntara si tienen hijos a lo cual se aplicara un % del seguro a todos los hijos menores de 21 años
 
 ## Puntos extra
 

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="this is a amazing descriptin" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#E44D26" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Inicio</title>
+  </head>
+  <body>
+    <form class="formData" action="#" id="form-data">
+      <div class="container">
+        <div class="formData__content">
+          <div class="formData__InfUser">
+            <input
+              class="formData__name"
+              type="text"
+              placeholder="name"
+              id="name"
+              required="required"
+            />
+            <input
+              class="formData__day"
+              type="number"
+              placeholder="Dia de Nacimiento"
+              id="day"
+              required="required"
+            />
+            <input
+              class="formData__month"
+              type="number"
+              placeholder="mes de nacimiento"
+              id="month"
+              required="required"
+            />
+            <input
+              class="formData__year"
+              type="number"
+              placeholder="año de nacimiento"
+              id="year"
+              required="required"
+            />
+          </div>
+          <div class="formData__addsUser">
+            <fieldset class="field">
+              <legend>Tienes esposa</legend>
+              <label
+                >si
+                <input type="radio" name="wife" value="true" id="wifeTrue" />
+              </label>
+              <label
+                >No
+                <input type="radio" name="wife" value="false" id="wifeFalse" />
+              </label>
+              <input
+                class="input wife"
+                type="number"
+                placeholder="edad de tu esposa"
+                id="ageWife"
+                required="required"
+              />
+            </fieldset>
+            <fieldset class="field">
+              <legend>Tienen Hijos</legend>
+              <label
+                >si
+                <input
+                  type="radio"
+                  name="child"
+                  value="childTrue"
+                  id="childTrue"
+                />
+              </label>
+              <label
+                >no
+                <input
+                  type="radio"
+                  name="child"
+                  value="childFalse"
+                  id="childFalse"
+                />
+              </label>
+              <input
+                class="input child"
+                type="number"
+                placeholder="edad de tus hijos menores a 21 años"
+                id="intChild"
+              />
+            </fieldset>
+          </div>
+          <button class="btn btn-black" type="submit" id="button">
+            enviar
+          </button>
+        </div>
+        <div class="dataCenter" id="data"></div>
+      </div>
+    </form>
+  </body>
+  <script src="assets/js/proyecto.js"></script>
+</html>

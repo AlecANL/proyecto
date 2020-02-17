@@ -1,0 +1,65 @@
+.child,
+.wife {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  width: 100%;
+  max-width: 122rem;
+  display: flex;
+  justify-content: center;
+  margin: 15rem auto;
+}
+.formData__content {
+  width: 50%;
+  padding: 5rem;
+}
+.formData__InfUser {
+  display: flex;
+  flex-direction: column;
+}
+.formData__InfUser > input {
+  height: 4rem;
+  border: none;
+  font-size: 1.6rem;
+  margin: 0.3rem 0.5rem;
+}
+.formData__InfUser > input:focus {
+  border-bottom: 1px solid red;
+  box-shadow: 0 0.1rem 3rem rgba(12, 12, 11, 0.685);
+  outline: none;
+}
+.input {
+  height: 4rem;
+  border: none;
+  font-size: 1.6rem;
+  margin: 0.3rem 0.5rem;
+}
+.dataCenter {
+  text-align: center;
+  width: 50%;
+}
+.btn {
+  border: none;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  width: 20%;
+}
+.field {
+  padding: 2rem;
+}
+.field,
+p {
+  font-size: 1.6rem;
+}
+p {
+  padding: 1rem;
+}
+/*# sourceMappingURL=main.css.map */
